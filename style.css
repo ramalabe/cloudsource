@@ -360,7 +360,7 @@
       }
   }
   
-  @media (min-width: 828px) and (max-width: 1440px) {
+  @media (min-width: 829px) and (max-width: 1440px) {
     
     .logo{
         width: 250px;
@@ -528,7 +528,7 @@
       }
   }
 
-@media (max-width: 828px){
+@media (min-width: 600px)and(max-width: 828px){
 
     .logo{
         width: 250px;
