@@ -21,7 +21,6 @@
     padding: 20px 0;
     margin-top: 180px;
     transform: translate(59%);
-    position: absolute;
 
 }
 
@@ -63,7 +62,6 @@
         padding: 20px 0;
         margin-top: 200px;
         transform: translate(7%);
-        position: relative;
     
     }
 
@@ -106,6 +104,7 @@
         width: 15px;
         margin-left: 10px;
     }
+  }
     
   
   @media (min-width: 829px) and (max-width: 1440px) {
@@ -115,7 +114,6 @@
         padding: 20px 0;
         margin-top: 140px;
         transform: translate(15%);
-        position: absolute;
     
     }
     
@@ -159,9 +157,6 @@
         padding: 20px 0;
         margin-top: 110px;
         transform: translate(15%);
-        position: absolute;
     
     }
-
-
 }
