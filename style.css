@@ -53,15 +53,15 @@
     width: 15px;
     margin-left: 10px;
 }
+  
 
-
-  @media screen and (max-width: 600px){
+  @media (min-width: 390px) and (max-width: 600px){
 
     .logo{
         width: 200px;
         padding: 20px 0;
-        margin-top: 200px;
-        transform: translate(7%);
+        margin-top: 50px;
+        transform: translate(2%);
     
     }
 
@@ -77,14 +77,65 @@
     .content{
         top: 50%;
         position: absolute;
-        margin-top: -60px;
-        transform: translate(5%);
+        transform: translate(2%);
+        margin-top: -100px;
         color: #fff;
     }
     
     .content h1{
-        font-size: 32px;
-        font-weight: 500;
+        font-size: 25px;
+        font-weight: 300;
+    
+    }
+    
+    .content button{
+        background: transparent;
+        border: 2px solid #fff;
+        outline: none;
+        padding: 12px 25px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+    
+    .content button img{
+        width: 15px;
+        margin-left: 10px;
+    }
+  }
+
+  @media screen and (max-width: 390px){
+
+    .logo{
+        width: 200px;
+        padding: 20px 0;
+        margin-top: 50px;
+        transform: translate(2%);
+    
+    }
+
+    .container{
+        width: 100vw;
+        height: 100vh;
+        background-image: url(images/test.png);
+        background-position: center;
+        background-size: cover;
+        padding: 0.8%;
+    }
+    
+    .content{
+        top: 50%;
+        position: absolute;
+        margin-top: -50px;
+        transform: translate(2%);
+        color: #fff;
+    }
+    
+    .content h1{
+        font-size: 25px;
+        font-weight: 250;
     
     }
     
@@ -106,3 +157,45 @@
     }
   }
   
+    
+  @media (min-width: 601px) and (max-width: 1450px) {
+    
+    .logo{
+        width: 250px;
+        padding: 20px 0;
+        margin-top: 100;
+        transform: translate(15%);
+    
+    }
+    
+    .content{
+        top: 50%;
+        position: absolute;
+        transform: translate(5%);
+        color: #fff;
+    }
+    
+    .content h1{
+        font-size: 50px;
+        font-weight: 600;
+    
+    }
+    
+    
+    .content button{
+        background: transparent;
+        border: 2px solid #fff;
+        outline: none;
+        padding: 12px 25px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+    
+    .content button img{
+        width: 15px;
+        margin-left: 10px;
+    }
+  }
