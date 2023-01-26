@@ -19,7 +19,7 @@
 .logo{
     width: 300px;
     padding: 20px 0;
-    margin-top: 180px;
+    margin-top: 150px;
     transform: translate(59%);
 
 }
@@ -56,7 +56,6 @@
   
 
   @media (min-width: 390px) and (max-width: 600px){
-<<<<<<< HEAD
 
     .logo{
         width: 200px;
@@ -66,17 +65,6 @@
     
     }
 
-=======
-
-    .logo{
-        width: 200px;
-        padding: 20px 0;
-        margin-top: 50px;
-        transform: translate(2%);
-    
-    }
-
->>>>>>> 29600e8113c2952d664c604210c5510403153d40
     .container{
         width: 100vw;
         height: 100vh;
@@ -170,20 +158,12 @@
   }
   
     
-<<<<<<< HEAD
   @media (min-width: 601px) and (max-width: 1450px) {
-=======
-  @media (min-width: 829px) and (max-width: 1440px) {
->>>>>>> 29600e8113c2952d664c604210c5510403153d40
     
     .logo{
         width: 250px;
         padding: 20px 0;
-<<<<<<< HEAD
-        margin-top: 100;
-=======
-        margin-top: 140px;
->>>>>>> 29600e8113c2952d664c604210c5510403153d40
+        margin-top: 60px;
         transform: translate(15%);
     
     }
@@ -218,9 +198,4 @@
         width: 15px;
         margin-left: 10px;
     }
-<<<<<<< HEAD
   }
-=======
-  }
-
->>>>>>> 29600e8113c2952d664c604210c5510403153d40
